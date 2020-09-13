@@ -165,25 +165,30 @@ const thomsCloset = [
 ]; */
 
 /* Alien Attire
-1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array. */
+1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array.  */
  
- const kristynsCloset = ["left shoe", "cowboy boots","right sock","GA hoodie","green pants","yellow knit hat","marshmallow peeps"];
- const thomsCloset = [
+ /* const kristynsCloset = ["left shoe", "cowboy boots","right sock","GA hoodie","green pants","yellow knit hat","marshmallow peeps"]; */
+
+/*  const thomsCloset = [
     [
+      // These are Thom's shirts
       "grey button-up",
       "dark grey button-up",
       "light blue button-up",
       "blue button-up",
     ],[
+      // These are Thom's pants
       "grey jeans",
       "jeans",
       "PJs"
     ],[
+      // Thom's accessories
       "wool mittens",
       "wool scarf",
       "raybans"
     ]
-] 
+  ]; */
+
 /* const kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].unshift(kristynsShoe);
 console.log(thomsCloset[2]);  */
@@ -192,17 +197,34 @@ console.log(thomsCloset[2]);  */
 
 
 
-for (i = 0; i < thomsCloset.length; i +=1) {
+/* for (i = 0; i < thomsCloset.length; i +=1) {
     for (j = 0; j < thomsCloset[i].length; j +=1) {
         console.log(thomsCloset[i][j]);
         }
     }
 
     const typyOf = thomsCloset[i];
-    article = thomsCloset[j];
+    article = thomsCloset[j]; */
 
 // NOT DONE!
 
 
+/* Dirty Laundry
+Continue looking at the closet arrays:
+1. Time to do laundry - loop through Kristyn's closet and log the sentence "WHIRR: Now washing (item)" for each item in the array. */
 
+/* for (i = 0; i < kristynsCloset.length; i +=1) {
+    console.log('WHIRR: Now washing ' + kristynsCloset[i]);
+} */
 
+/* ### Inventory
+2. Thom wants to do inventory on his closet. Using **bracket notation**, log the **arrays** (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
+ */
+
+/*  for (i = 0; i < thomsCloset.length; i += 1) {
+     console.log(thomsCloset.indexOf(1));
+ } */
+
+ //NOT DONE!
+
+ 
