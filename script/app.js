@@ -38,7 +38,6 @@ Easy Going
     } */
 
 
-
 /* Fizz Buzz 
 
 >NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
@@ -112,3 +111,19 @@ console.log(jimHaff); */
 
 /* 6. Bonus: Whoops! Jim Haff is actually only allowed to be in one of two cities.  Whatever the _first_ of the 3 cities for Jim Haff is now, remove it from the array using [`.splice()`](https://www.google.com/search?q=mdn+splice&oq=mdn+splice&aqs=chrome.0.0j69i60j0l4.1078j0j7&sourceid=chrome&ie=UTF-8)
   */
+
+
+/*  Yell at the Ninja Turtles
+
+ 1. Create an array with the members of the ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo) */
+ 
+/* const ninTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']; */
+
+ /* 2. Use a `for loop` to call `.toUpperCase()` on each of them and print out the result. */
+
+/*  for (i = 0; i < ninTurtles.length; i+=1) {
+    ninTurtles[i] = ninTurtles[i].toUpperCase()
+ }
+ console.log(ninTurtles); */
+ 
+ /* 3. Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters alternate back and forth between uppercase and lowercase. */
