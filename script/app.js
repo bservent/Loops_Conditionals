@@ -127,3 +127,82 @@ console.log(jimHaff); */
  console.log(ninTurtles); */
  
  /* 3. Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters alternate back and forth between uppercase and lowercase. */
+
+ /* Return of the Closets
+
+Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. Use this data to answer the following questions.
+
+```javascript
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// /* Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+]; */
+
+/* Alien Attire
+1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array. */
+ 
+ const kristynsCloset = ["left shoe", "cowboy boots","right sock","GA hoodie","green pants","yellow knit hat","marshmallow peeps"];
+ const thomsCloset = [
+    [
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+] 
+/* const kristynsShoe = kristynsCloset.shift();
+thomsCloset[2].unshift(kristynsShoe);
+console.log(thomsCloset[2]);  */
+
+/* 1. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!k  */ 
+
+
+
+for (i = 0; i < thomsCloset.length; i +=1) {
+    for (j = 0; j < thomsCloset[i].length; j +=1) {
+        console.log(thomsCloset[i][j]);
+        }
+    }
+
+    const typyOf = thomsCloset[i];
+    article = thomsCloset[j];
+
+// NOT DONE!
+
+
+
+
