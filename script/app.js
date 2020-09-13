@@ -36,7 +36,32 @@ Easy Going
         console.log('Love me, pet me! HSSSSSS!');
         }
     } */
-    
-        
 
+
+
+/* Fizz Buzz 
+
+>NOTE: THIS IS A CLASSIC RITE-OF-PASSAGE FOR JAVASCRIPT PROGRAMMERS, ESPECIALLY ONES AT GA
+
+Write a javascript application that logs all numbers from 1 - 100 **AND**: 
+
+  1. If a number is divisible by 3 log "Fizz" instead of the number.
+  
+  1. If a number is divisible by 5 log "Buzz" instead of the number.
+  
+  1. If a number is divisible by 3 and 5 log "FizzBuzz" instead of the number, "Fizz", or "Buzz". */
+/* 
+    for (i = 1; i <=100; i+=1) {
+         if (i % 15 === 0) {
+            console.log('FizzBuzz');
+        } else if 
+            (i % 5 === 0) {
+                console.log('Buzz');
+        } else if 
+            (i % 3 === 0) {
+                console.log('Fizz');
+        } else {
+                console.log(i);
+        }
+    } */
     
