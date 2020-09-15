@@ -110,8 +110,8 @@ jimHaff.push('Melbourne', 'Auckland', 'Eagle River');
 console.log(jimHaff); */
 
 /* 6. Bonus: Whoops! Jim Haff is actually only allowed to be in one of two cities.  Whatever the _first_ of the 3 cities for Jim Haff is now, remove it from the array using [`.splice()`](https://www.google.com/search?q=mdn+splice&oq=mdn+splice&aqs=chrome.0.0j69i60j0l4.1078j0j7&sourceid=chrome&ie=UTF-8)
-  */
 
+jimHaff.splice(2,1)
 
 /*  Yell at the Ninja Turtles
 
@@ -126,8 +126,19 @@ console.log(jimHaff); */
  }
  console.log(ninTurtles); */
  
- /* 3. Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters alternate back and forth between uppercase and lowercase. */
+ /* 3. Bonus: Modify the answer you just wrote. Instead of all letters being uppercase, make the letters 
+ alternate back and forth between uppercase and lowercase. */
 
+/*  const ninTurts = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo'];
+
+for (let i = 0; i < ninTurts.length; i++) {
+  ninTurts[i] = ninTurts[i].split('');
+  for (let t = 0; t < ninTurts[i].length; t += 2) {
+    ninTurts[i][t] = ninTurts[i][t].toUpperCase();
+  }
+  ninTurts[i] = ninTurts[i].join('');
+  console.log(ninTurts[i]);
+} */
  /* Return of the Closets
 
 Below, we've given you examples of Kristyn and Thom's closets modeled as data in JavaScript. Use this data to answer the following questions.
@@ -167,9 +178,9 @@ const thomsCloset = [
 /* Alien Attire
 1. Kristyn's left shoe has traveled through time and space and turned up in Thom's accessories drawer! Remove Kristyn's shoe from the array and save it to the variable `kristynsShoe`. Use that variable to add Kristyn's lost shoe to Thom's accessories array.  */
  
- /* const kristynsCloset = ["left shoe", "cowboy boots","right sock","GA hoodie","green pants","yellow knit hat","marshmallow peeps"]; */
+/*  const kristynsCloset = ["left shoe", "cowboy boots","right sock","GA hoodie","green pants","yellow knit hat","marshmallow peeps"];
 
-/*  const thomsCloset = [
+  const thomsCloset = [
     [
       // These are Thom's shirts
       "grey button-up",
@@ -187,27 +198,38 @@ const thomsCloset = [
       "wool scarf",
       "raybans"
     ]
-  ]; */
+  ];   */
 
 /* const kristynsShoe = kristynsCloset.shift();
 thomsCloset[2].unshift(kristynsShoe);
-console.log(thomsCloset[2]);  */
+console.log(thomsCloset[2]);  
 
-/* 1. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!k  */ 
+/* /* 1. Modify your code to put together **3 separate outfits** for Kristyn and Thom. Put the output in a sentence to tell us what we'll be wearing. Mix and match!k  */ 
+
+/* Thoms Outfits: */
 
 
+/* let thomsOutfit = '';
+let index 
 
-/* for (i = 0; i < thomsCloset.length; i +=1) {
-    for (j = 0; j < thomsCloset[i].length; j +=1) {
-        console.log(thomsCloset[i][j]);
-        }
-    }
+for (i = 0; i < thomsCloset.length; i++) {
+  index = Math.floor(Math.random() * thomsCloset[i].length);
+  thomsOutfit += thomsCloset[i][index];
+}
 
-    const typyOf = thomsCloset[i];
-    article = thomsCloset[j]; */
+console.log(thomsOutfit);
 
-// NOT DONE!
+let kristynsOutfit = '';
 
+for (i = 0; i < kristynsCloset.length; i++) {
+  if (i === 3) {
+    break
+  }
+  index = Math.floor(Math.random() * kristynsCloset.length);
+  kristynsOutfit += kristynsCloset[index];
+}
+
+console.log(kristynsOutfit); */
 
 /* Dirty Laundry
 Continue looking at the closet arrays:
@@ -217,16 +239,13 @@ Continue looking at the closet arrays:
     console.log('WHIRR: Now washing ' + kristynsCloset[i]);
 } */
 
-/* ### Inventory
-2. Thom wants to do inventory on his closet. Using **bracket notation**, log the **arrays** (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories.
- */
+/*  ### Inventory
+2. Thom wants to do inventory on his closet. Using **bracket notation**, log the **arrays** (not the elements in the arrays) containing all of Thom's shirts, pants, and accessories. */
+ 
 
-/*  for (i = 0; i < thomsCloset.length; i += 1) {
-     console.log(thomsCloset.indexOf(1));
+/*  for (let i = 0; i < thomsCloset.length; i++) {
+      console.log(thomsCloset[i]);
  } */
-
- //NOT DONE!
-
 
 
 /*  Multiples of 3 and 5
@@ -241,12 +260,12 @@ Find the **sum** of all the multiples of 3 or 5 below 1000.
 
 >Tip: Get used to thinking about how to solve problems _now_. Will help immensely with coding challenges, and get your coding brain muscles nice and flexed for the class. Make a habit of going to Project Euler and taking a crack at the problems */
 
-/* let sum = 0
+/* let sum = 0 */
 
-for (i = 0; i <= 1000; i += 1) {
+/* for (i = 0; i <= 1000; i += 1) {
     if (i % 3 === 0 || i % 5 === 0) {
         sum = sum + i
     }
 }
 console.log(sum);
-sum of multiples of 3 or 5 below 1000 = 234168
+sum of multiples of 3 or 5 below 1000 = 234168 */
